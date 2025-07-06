@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Deep Talk App</title>
+    <meta name="description" content="Deep Talk: Connect Deeper" />
+    <meta property="og:title" content="Deep Talk" />
+    <meta property="og:description" content="Deep Talk: Connect Deeper" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-hero">
+          <header class="home-heading1">
+            <div id="notifcation" class="home-notification"></div>
+          </header>
+          <div class="home-content1">
+            <div class="home-content2">
+              <h1 class="home-title">Deep Talk : Connect Deeper</h1>
+              <span class="home-caption1">
+                <span>Meaningful conversations are just one card away.</span>
+                <br />
+                <span>With over 300 thought-provoking questions across</span>
+                <br />
+                <span>6 themes, Deep Talk helps you spark honest stories</span>
+                <br />
+                <span>and&nbsp;</span>
+                <span>real connections. Whether it’s a close friend or</span>
+                <br />
+                <span>someone&nbsp;</span>
+                <span>new, simply draw a card and let the</span>
+                <br />
+                <span>conversation&nbsp;</span>
+                <span>flow.</span>
+              </span>
+              <div class="home-hero-buttons">
+                <div class="home-ios-btn">
+                  <img
+                    alt="pastedImage"
+                    src="public/pastedimage-zmzg.svg"
+                    class="home-apple"
+                  />
+                  <span class="home-caption2">Download for iOS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-sections">
+          <div class="home-section1">
+            <div class="home-content3">
+              <div class="home-heading2">
+                <h2 class="home-text24">What is Deep Talk App?</h2>
+                <span class="home-text25">
+                  <span>
+                    Deep Talk is a card-based conversation application designed
+                    to spark honest and meaningful discussions. Whether you're
+                    connecting with friends, partners, or even yourself, each
+                    card brings a thought-provoking question that invites
+                    emotional depth and reflection.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    Explore a variety of themes—from Emotions &amp; Healing to
+                    Dreams &amp; Aspirations. Choose your comfort level, draw a
+                    card, and let the stories unfold. Ideal for one-on-one
+                    chats, group settings, or quiet introspection.
+                  </span>
+                </span>
+              </div>
+              <div class="home-content4"></div>
+            </div>
+            <div class="home-image1"></div>
+          </div>
+          <div class="home-section2">
+            <div class="home-image2"></div>
+            <div class="home-content5">
+              <h2 class="home-text30">
+                <span>Features</span>
+                <br />
+              </h2>
+              <div class="home-points">
+                <point-wrapper class="point-wrapper">
+                  <!--Point component-->
+                  <div class="point-point">
+                    <div class="point-check">
+                      <svg viewBox="0 0 1024 1024" class="point-icon1">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span class="point-text1">
+                      <fragment class="home-fragment1">
+                        <span class="home-text33">
+                          <span>Over 300 carefully crafted questions</span>
+                          <br />
+                          Duis aute irure dolor in reprehenderit
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </point-wrapper>
+                <point-wrapper-0ane class="point-wrapper-0ane">
+                  <!--Point component-->
+                  <div class="point-point1">
+                    <div class="point-check1">
+                      <svg viewBox="0 0 1024 1024" class="point-icon3">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span class="point-text2">
+                      <fragment class="home-fragment2">
+                        <span class="home-text36">
+                          6 unique themes so you can match to your conversation
+                          partner
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </point-wrapper-0ane>
+                <point-wrapper-wz5v class="point-wrapper-wz5v">
+                  <!--Point component-->
+                  <div class="point-point2">
+                    <div class="point-check2">
+                      <svg viewBox="0 0 1024 1024" class="point-icon5">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span class="point-text3">
+                      <fragment class="home-fragment3">
+                        <span class="home-text37">
+                          Reflective questions that foster deep conversations
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </point-wrapper-wz5v>
+                <point-wrapper-gd12 class="point-wrapper-gd12">
+                  <!--Point component-->
+                  <div class="point-point3">
+                    <div class="point-check3">
+                      <svg viewBox="0 0 1024 1024" class="point-icon7">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span class="point-text4">
+                      <fragment class="home-fragment4">
+                        <span class="home-text38">
+                          Shuffle to discover new questions anytime
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </point-wrapper-gd12>
+                <point-wrapper-v2vd class="point-wrapper-v2vd">
+                  <!--Point component-->
+                  <div class="point-point4">
+                    <div class="point-check4">
+                      <svg viewBox="0 0 1024 1024" class="point-icon9">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span class="point-text5">
+                      <fragment class="home-fragment5">
+                        <span class="home-text39">
+                          Soft onboarding to guide your journey into deeper
+                          connection
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </point-wrapper-v2vd>
+                <point-wrapper-kqa0 class="point-wrapper-kqa0">
+                  <!--Point component-->
+                  <div class="point-point5">
+                    <div class="point-check5">
+                      <svg viewBox="0 0 1024 1024" class="point-icon11">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span class="point-text6">
+                      <fragment class="home-fragment6">
+                        <span class="home-text40">
+                          Calming visual design with a gentle tone
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </point-wrapper-kqa0>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-banner-container"></div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-footer">
+            <div class="footer-content">
+              <div class="footer-information">
+                <div class="footer-heading">
+                  <span class="footer-text1">
+                    <span>Meet the developer :</span>
+                  </span>
+                </div>
+                <div class="footer-socials">
+                  <a
+                    href="https://www.linkedin.com/in/ameliacitradewi/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link1"
+                  >
+                    <social-wrapper
+                      class="footer-component1"
+                      rootclassname="socialundefined"
+                    >
+                      <!--Social component-->
+                      <div id="" class="social-social socialroot-class-name">
+                        <img
+                          alt="pastedImage"
+                          src="public/pastedimage-9nha.svg"
+                          class="social-insider"
+                        />
+                      </div>
+                    </social-wrapper>
+                  </a>
+                  <a
+                    href="https://instagram.com/amelia.citra"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer-link2"
+                  >
+                    <social-wrapper-cahb
+                      class="footer-component2"
+                      rootclassname="socialundefined"
+                    >
+                      <!--Social component-->
+                      <div
+                        id="Social"
+                        class="social-social1 socialroot-class-name1"
+                      >
+                        <img
+                          alt="pastedImage"
+                          src="public/pastedimage-k0l6.svg"
+                          class="social-insider1"
+                        />
+                      </div>
+                    </social-wrapper-cahb>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="legal.html" class="footer-navlink">
+              <span>Privacy Policy</span>
+            </a>
+            <span class="footer-text2">
+              <span>© 2025. All Rights Reserved.</span>
+            </span>
+          </div>
+        </footer-wrapper>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

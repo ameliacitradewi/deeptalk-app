@@ -1,0 +1,78 @@
+.faq1faq7 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.faq1-max-width {
+  gap: var(--dl-layout-space-fiveunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.faq1-text11 {
+  text-align: center;
+}
+ 
+.faq1-list-item1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.faq1-container {
+  display: flex;
+  position: relative;
+}
+ 
+.faq1-fragment1 {
+  display: contents;
+}
+ 
+.faq1-text12 {
+  display: inline-block;
+}
+ 
+.faq1-text16 {
+  font-weight: 700;
+}
+ 
+.faq1-text29 {
+  font-weight: 700;
+}
+ 
+.faq1-text34 {
+  font-weight: 700;
+}
+ 
+.faq1-text39 {
+  font-weight: 700;
+}
+ 
+.faq1-text44 {
+  font-weight: 700;
+}
+ 
+.faq1-text49 {
+  font-weight: 700;
+}
+ 
+.faq1-fragment2 {
+  display: contents;
+}
+ 
+.faq1-text53 {
+  display: inline-block;
+}
+ 
+.faq1-fragment3 {
+  display: contents;
+}
+ 
+.faq1-text54 {
+  display: inline-block;
+}
